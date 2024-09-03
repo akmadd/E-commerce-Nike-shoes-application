@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.mainlog0 {
+    background-image: url(Images/MainLogo_Pic/mainlogopic.png);
+    background-blend-mode: overlay;
+    height: 70vh;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover, 100%;
+    /* border: 1px solid gainsboro; */
+}
+.mainlog0{
+    box-shadow: 4px 4px 4px 4px #d2d1d1;
+}
+
+/* .mainlog0 .png_nike_logo{
+    background-image: url(Images/Nike_Logo_pic/logo.png);
+    position: absolute;
+} */
+.para1 {
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    margin-top: 6rem;
+
+}
+
+.para1 h2 {
+    letter-spacing: -1px;
+    /* color: grey; */
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.para1 h2 {
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.para1 h2:hover {
+    transform: scale(1.9); /* Zoom in by 10% */
+}
+
+.containe_1 {
+    display: flex;
+    justify-content: space-around;
+    /* height: 250px;
+     width: 250px; */
+    /* border: 1px solid black; */
+    margin-top: 7rem;
+
+}
+
+.containe_2 {
+    display: flex;
+    justify-content: space-around;
+    /* height: 250px;
+     width: 250px; */
+    /* border: 1px solid black; */
+    margin-top: 7rem;
+
+}
+
+.shoes_1 {
+    height: 390px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #d2d1d1; */
+    background-image: url(Images/shoes_pic_9.jpg);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    /* background-color: rgba(243, 243, 243, 0.3); */
+
+}
+
+.shoes_1_1{
+    height: 390px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #d2d1d1; */
+    background-image: url(Images/FieldsTracK_pic/Spikes_1.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    /* background-color: rgba(243, 243, 243, 0.3); */
+
+}
+
+.shoes_1{
+    padding: 20px;
+    padding-top: 18rem;
+    
+    
+}
+
+.shoes_1_1{
+    padding: 20px;
+    padding-top: 18rem;
+    
+    
+}
+
+.shoes_2 {
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/11.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+} 
+
+.shoes_2_2 {
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/FieldsTracK_pic/Spikes_2.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+} 
+
+.shoes_2{
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.shoes_2_2{
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.shoes_3 {
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/shoes_pic_8.jpg);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    /* display: flex;
+    align-items: center; /* Center vertically */
+    
+}
+.shoes_3{
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.shoes_3_3{
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/FieldsTracK_pic/Spikes_3.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    /* display: flex;
+    align-items: center; /* Center vertically */
+    
+}
+.shoes_3_3{
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.shoes_4 {
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/19.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+
+}
+
+.shoes_4 {
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.shoes_4_4 {
+    height: 390px;
+    width: 250px;
+    border: 1px solid #f1f1f1;
+    background-image: url(Images/FieldsTracK_pic/Spikes_4.png);
+    background-position: center;
+    background-size: contain;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+
+}
+
+.shoes_4_4 {
+    padding: 20px;
+    padding-top: 18rem;
+}
+
+.h3text h4 span{
+       padding-left: 2px;
+}
+
+.shoes_3, .shoes_1, .shoes_2, .shoes_4 {
+    
+    transition: transform 0.3s ease;
+}
+
+
+.shoes_3:hover, .shoes_1:hover, .shoes_2:hover, .shoes_4:hover {
+    transform: translateY(-20px); 
+    box-shadow: 4px 4px 4px 5px rgba(37, 36, 36, 0.3);
+}
+
+.shoes_3_3, .shoes_1_1, .shoes_2_2, .shoes_4_4 {
+    
+    transition: transform 0.3s ease;
+}
+
+
+.shoes_3_3:hover, .shoes_1_1:hover, .shoes_2_2:hover, .shoes_4_4:hover {
+    transform: translateY(-20px); 
+    box-shadow: 4px 4px 4px 5px rgba(37, 36, 36, 0.3);
+}
+
+.para2{
+    
+    text-align: center;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    margin-top: 6rem;
+}
+
+.para2 h2 {
+    letter-spacing: -1px;
+    /* color: grey; */
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.para2 h2 {
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.para2 h2:hover {
+    transform: scale(1.9); /* Zoom in by 10% */
+}
+footer{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9rem;
+    background-color: black;
+}
+.firstdetail{
+    padding-top: 4rem;
+}
+.threedetil{
+    padding-top: 4rem;
+}
+.firstdetail h4{
+    color: #f1f1f1;
+}
+.firstdetail .news h2{
+    color: #f1f1f1;
+}
+.news input {
+    color: #f1f1f1;
+}
+.news .btn{
+    color: #f1f1f1;
+}
+.threedetil h4{
+    color: #f1f1f1;
+}
+.threedetil h2{
+    color: #f1f1f1;
+}

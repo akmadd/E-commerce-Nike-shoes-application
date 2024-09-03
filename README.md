@@ -1,0 +1,1 @@
+Description: Developed a responsive and visually appealing web application for showcasing Nike premium shoes. Utilized HTML, CSS, and JavaScript to create an engaging user interface with smooth navigation and product filtering features.
